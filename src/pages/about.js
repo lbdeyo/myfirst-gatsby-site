@@ -1,5 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 const AboutPage = () => {
   return (
@@ -14,7 +15,7 @@ const AboutPage = () => {
 
 export const Head = () => (
   <>
-    <title>About Me</title>
+    <Seo title="About me" />
     <meta
       name="description"
       content="this is the page where I like I talk about my damn self."
